@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Menlo.ttc">
+            <string>Menlo-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JKm-vQ-KK9">
+                                <rect key="frame" x="162.5" y="299.5" width="51.5" height="69"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spots" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jwh-uc-xmq">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V34-qA-8lv">
+                                        <rect key="frame" x="0.0" y="25" width="51.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="inobi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBf-BZ-RQD">
+                                        <rect key="frame" x="0.0" y="48" width="51.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="V34-qA-8lv" firstAttribute="leading" secondItem="JKm-vQ-KK9" secondAttribute="leading" id="1xl-eB-D6F"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jwh-uc-xmq" secondAttribute="trailing" id="B5L-I3-zfc"/>
+                                    <constraint firstItem="Jwh-uc-xmq" firstAttribute="top" secondItem="JKm-vQ-KK9" secondAttribute="top" id="Gta-id-Ocz"/>
+                                    <constraint firstAttribute="trailing" secondItem="jBf-BZ-RQD" secondAttribute="trailing" id="Ha3-id-Rbg"/>
+                                    <constraint firstItem="jBf-BZ-RQD" firstAttribute="leading" secondItem="JKm-vQ-KK9" secondAttribute="leading" id="M7f-I9-TRM"/>
+                                    <constraint firstItem="Jwh-uc-xmq" firstAttribute="leading" secondItem="JKm-vQ-KK9" secondAttribute="leading" id="MYD-cP-dVx"/>
+                                    <constraint firstItem="V34-qA-8lv" firstAttribute="top" secondItem="Jwh-uc-xmq" secondAttribute="bottom" constant="5" id="NYE-7d-slt"/>
+                                    <constraint firstItem="jBf-BZ-RQD" firstAttribute="top" secondItem="V34-qA-8lv" secondAttribute="bottom" constant="5" id="WF7-V5-LcB"/>
+                                    <constraint firstAttribute="bottom" secondItem="jBf-BZ-RQD" secondAttribute="bottom" id="Xpn-nG-mQw"/>
+                                    <constraint firstAttribute="trailing" secondItem="V34-qA-8lv" secondAttribute="trailing" id="fPj-zZ-g1I"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JKm-vQ-KK9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Fnj-6r-frj"/>
+                            <constraint firstItem="JKm-vQ-KK9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nH5-Um-UWJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
